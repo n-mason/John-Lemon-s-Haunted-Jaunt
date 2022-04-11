@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     Quaternion m_Rotation = Quaternion.identity;
     Animator m_Animator;
     Rigidbody m_Rigidbody;
-    public float turnSpeed = .1f;
+    public float turnSpeed = 20f;
     // Start is called before the first frame update
     void Start()
     {
