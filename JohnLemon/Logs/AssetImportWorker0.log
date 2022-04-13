@@ -1,0 +1,799 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16241 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Chris/Documents/GitHub/John-Lemon-s-Haunted-Jaunt/JohnLemon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59419
+Successfully changed project path to: C:/Users/Chris/Documents/GitHub/John-Lemon-s-Haunted-Jaunt/JohnLemon
+C:/Users/Chris/Documents/GitHub/John-Lemon-s-Haunted-Jaunt/JohnLemon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Chris/Documents/GitHub/John-Lemon-s-Haunted-Jaunt/JohnLemon/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002705 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (454ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (349ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (129ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003791 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029C946168A0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9467E430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9467E430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C950E53F0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9515B220 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9467E430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94BF1710 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95163230 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94C20D20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94C20D20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95357C20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95357C20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93FBE020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7014FE20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94328010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9580A600 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6F64B910 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7014FE20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93FF7430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93FF7430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93FF7430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93F34430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94ABE020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70528940 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94AE6630 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94B0ED40 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7094E630 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2447.
+Total: 2.076500 ms (FindLiveObjects: 0.095100 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.880200 ms  DeleteObjects: 0.055200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(8aca9de8cdc67a84cab3d972f6c188b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(8aca9de8cdc67a84cab3d972f6c188b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bb5b6badb9b8ac1bdf3083c45f5931') in 0.007001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.388940 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d728c85cdd25b46026a0bb391c1a62') in 0.006382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.201879 seconds.
+  path: Assets/Scenes/Assignment2_410.unity
+  artifactKey: Guid(17240694c4759df4b8caf8bf5f9ccb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assignment2_410.unity using Guid(17240694c4759df4b8caf8bf5f9ccb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66e06361dafc989a205ee4684e7d800') in 0.005751 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 121.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2448.
+Total: 2.135300 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.079300 ms MarkObjects: 1.855900 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.466545 seconds.
+  path: Assets/Scripts/GhostColr.cs
+  artifactKey: Guid(09f2fd9ed20e68040ae070cd3a1360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostColr.cs using Guid(09f2fd9ed20e68040ae070cd3a1360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a2c918b0c16272722d05e35327d2c') in 0.014570 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004217 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029C706722A0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7076CAF0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C949C2020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98A4F010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9472E230 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7076CAF0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9835C430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95B69020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70586010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7076CAF0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98A4F010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98A4F010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C97150080 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7077CD70 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C971C6040 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98607CD0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6F64D050 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C950E53F0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C988D1430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94428A30 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95FDD030 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9888D030 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94457020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C983EDE40 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95FDD030 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95882470 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C706AD420 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1981 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.1 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2451.
+Total: 1.951700 ms (FindLiveObjects: 0.101000 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.779600 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.580019 seconds.
+  path: Assets/Scripts/GhostColor.cs
+  artifactKey: Guid(09f2fd9ed20e68040ae070cd3a1360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostColor.cs using Guid(09f2fd9ed20e68040ae070cd3a1360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9831f6a3fb11c57d4a862dfd103c9b') in 0.004478 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029CDBFE3290 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98A4F010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBABCC20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98757020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6FF6F620 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70586010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9740B8F0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9740B8F0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93F3C700 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C95AFC220 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C97FD0010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98607CD0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98A564A0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C986D7010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70294030 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70868C80 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C702777D0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDC12A220 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94457020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98004060 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C702777D0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9862ED60 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94AF75D0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1981 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 1.953000 ms (FindLiveObjects: 0.087100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.801100 ms  DeleteObjects: 0.021500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029C7091D8A0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBB76020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C942AD410 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBABCC20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98757020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9868B020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70586010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70868C80 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C942AD410 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C942AD410 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93F3C700 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93D7A020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C97891020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C98607CD0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9787B250 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93D7A020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C97150080 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70868C80 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDE0F8A30 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70524CD0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDCEA5FB0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDD87BBD0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C97E80820 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C7027B9D0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDE002900 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (712ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1981 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2457.
+Total: 1.894300 ms (FindLiveObjects: 0.094400 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.736900 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.871468 seconds.
+  path: Assets/Scripts/GhostColor.cs
+  artifactKey: Guid(09f2fd9ed20e68040ae070cd3a1360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostColor.cs using Guid(09f2fd9ed20e68040ae070cd3a1360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ac89da8799792d76a951b1ef8f9648') in 0.004359 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029C988742A0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDCB6C040 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6FFF8480 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94889010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C945A7020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6FF6EC20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93F5C710 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70868C80 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6FFF8480 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6FFF8480 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDCEA5FB0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C707B21C0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70262DC0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBB4D6C0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9787C990 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C707B21C0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C93F5C710 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70868C80 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94889010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70028230 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C97D12FB0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDD87F810 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C94889010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDB316C20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDE0074F0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Domain Reload Profiling:
+	ReloadAssembly (827ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1981 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2460.
+Total: 2.270500 ms (FindLiveObjects: 0.094400 ms CreateObjectMapping: 0.040900 ms MarkObjects: 2.083400 ms  DeleteObjects: 0.050600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004326 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029CDB288AD0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDC1D0030 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBB35490 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C977EF010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9A157020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C945A7020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C950B6010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9835C430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70868C80 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBB35490 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBB35490 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9479F020 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C950B6010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70262DC0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDBB5B400 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9787A0E0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C950B6010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C9835C430 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C70868C80 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C977EF010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDC946940 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDF1FDAB0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CDD87BBD0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C977EF010 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029C6FF6EC20 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029CE02DF3D0 doesn't match image C:\Users\Chris\Documents\GitHub\John-Lemon-s-Haunted-Jaunt\JohnLemon\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1981 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2463.
+Total: 1.989600 ms (FindLiveObjects: 0.109300 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.806900 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
