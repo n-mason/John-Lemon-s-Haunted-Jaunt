@@ -7,12 +7,27 @@ public class GhostColor : MonoBehaviour
     public GameObject ghost;
     public Renderer rend;
 
-    void Start()
+    void Update()
     {
-        float t = Random.Range(0.0f, 1.0f);
+        if(Time.frameCount % 30 == 0)
+        {
+            float t = Random.Range(0.0f, 1.0f);
 
-        Color body = Color.Lerp(Color.blue, Color.red, t);
+            Color color1 = new Color(
+                Random.Range(0f,1f),
+                Random.Range(0f,1f),
+                Random.Range(0f,1f)
+            );
 
-        rend.material.SetColor("_Color", body);
+            Color color2 = new Color(
+                Random.Range(0f,1f),
+                Random.Range(0f,1f),
+                Random.Range(0f,1f)
+            );
+
+            Color body = Color.Lerp(color1, color2, t);
+
+            rend.material.SetColor("_Color", body);
+        }
     }
 }
