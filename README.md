@@ -1,6 +1,6 @@
 # John-Lemon-s-Haunted-Jaunt
 
-The Player Character Parts 1 and 2 - Harry
+The Player Character Parts 1 and 2 - Harry Smith
 
 The Camera, Ending the Game, Audio - Nathaniel Mason
 
