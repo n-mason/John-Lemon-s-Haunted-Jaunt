@@ -442,6 +442,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2558541847817301340, guid: 1066406bcecfa244982e2c794441a2e6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 2558541847824588442, guid: 1066406bcecfa244982e2c794441a2e6,
         type: 3}
       propertyPath: m_Controller
@@ -590,6 +595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gargoyle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542376809528231321, guid: be8d3d668f24c2c4a9ce5059a86f7710,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1542376809528334777, guid: be8d3d668f24c2c4a9ce5059a86f7710,
         type: 3}
@@ -881,6 +891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ghost (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558541847817301340, guid: 1066406bcecfa244982e2c794441a2e6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2558541847824588442, guid: 1066406bcecfa244982e2c794441a2e6,
         type: 3}
@@ -1286,6 +1301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2558541847817301340, guid: 1066406bcecfa244982e2c794441a2e6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 2558541847824588442, guid: 1066406bcecfa244982e2c794441a2e6,
         type: 3}
       propertyPath: m_Controller
@@ -1319,6 +1339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gargoyle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542376809528231321, guid: be8d3d668f24c2c4a9ce5059a86f7710,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1542376809528334777, guid: be8d3d668f24c2c4a9ce5059a86f7710,
         type: 3}
@@ -1915,7 +1940,7 @@ GameObject:
   - component: {fileID: 1659327463}
   m_Layer: 0
   m_Name: GameEnding
-  m_TagString: Untagged
+  m_TagString: GameEnding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5752,6 +5777,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JohnLemon
       objectReference: {fileID: 0}
+    - target: {fileID: 1188141790749935435, guid: 1b28b8955f523db43909ae6188ed61ca,
+        type: 3}
+      propertyPath: m_TagString
+      value: JohnLemon
+      objectReference: {fileID: 0}
     - target: {fileID: 1188141790750169963, guid: 1b28b8955f523db43909ae6188ed61ca,
         type: 3}
       propertyPath: m_RootOrder
@@ -5815,6 +5845,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1188141789222087458}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1188141789222087460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2055451988, guid: 1b28b8955f523db43909ae6188ed61ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1188141789222087458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1188141789222087461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188141789222087460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40075ddf982da346a4b6bbd837344ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1525063592877160162 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2558541847816876412, guid: 1066406bcecfa244982e2c794441a2e6,
@@ -5865,6 +5913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gargoyle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542376809528231321, guid: be8d3d668f24c2c4a9ce5059a86f7710,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1542376809528334777, guid: be8d3d668f24c2c4a9ce5059a86f7710,
         type: 3}
@@ -6029,6 +6082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558541847817301340, guid: 1066406bcecfa244982e2c794441a2e6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2558541847824588442, guid: 1066406bcecfa244982e2c794441a2e6,
         type: 3}
